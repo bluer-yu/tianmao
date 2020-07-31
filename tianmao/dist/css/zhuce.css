@@ -1,0 +1,172 @@
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+div,
+fieldset,
+legend,
+input,
+figure,
+figcaption,
+p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b,
+i,
+em {
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+ul,
+ol,
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none;
+  vertical-align: top; }
+
+input {
+  outline: none; }
+
+.denglu_section1 {
+  padding: 22px 0;
+  height: 44px; }
+  .denglu_section1 .denglu_section1_div1 {
+    width: 1190px;
+    height: 44px;
+    margin: 0 auto; }
+    .denglu_section1 .denglu_section1_div1 img {
+      margin-top: 8px;
+      width: 190px; }
+
+.none {
+  font-size: 13px;
+  display: none; }
+
+.enroll_1 {
+  height: 600px;
+  background: url(../images/datu.jpg); }
+  .enroll_1 .enroll_1_div1 {
+    width: 1190px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .enroll_1 .enroll_1_div1 .iops {
+      background-color: rgba(0, 0, 0, 0.11);
+      width: 412px;
+      margin-top: 100px; }
+      .enroll_1 .enroll_1_div1 .iops .aside_1 {
+        width: 411px;
+        height: 37px;
+        position: relative; }
+        .enroll_1 .enroll_1_div1 .iops .aside_1 h2 {
+          float: left;
+          font-size: 30px;
+          font-weight: 400;
+          color: #333;
+          line-height: 37px; }
+        .enroll_1 .enroll_1_div1 .iops .aside_1 a {
+          display: inline-block;
+          float: right;
+          width: 60px;
+          height: 22px;
+          margin-top: 15px; }
+      .enroll_1 .enroll_1_div1 .iops .aside_2 {
+        width: 410px;
+        height: 46px;
+        margin-top: 28px;
+        border: 1px solid #cbcbcb;
+        position: relative; }
+        .enroll_1 .enroll_1_div1 .iops .aside_2 ul {
+          width: 147px;
+          height: 110px;
+          position: absolute;
+          right: 0;
+          top: 46px;
+          border: 1px solid red;
+          display: none; }
+          .enroll_1 .enroll_1_div1 .iops .aside_2 ul li {
+            text-align: center;
+            padding-left: 20px;
+            height: 36px;
+            line-height: 36px;
+            background-color: yellow; }
+        .enroll_1 .enroll_1_div1 .iops .aside_2 input {
+          float: left;
+          width: 396px;
+          height: 46px;
+          padding-left: 16px;
+          border: none; }
+        .enroll_1 .enroll_1_div1 .iops .aside_2 article:nth-of-type(1) {
+          width: 133px;
+          height: 46px;
+          background-color: white;
+          float: left;
+          line-height: 46px;
+          text-align: center; }
+        .enroll_1 .enroll_1_div1 .iops .aside_2 i:nth-of-type(1) {
+          position: absolute;
+          right: 0;
+          top: 35%;
+          padding-right: 10px; }
+      .enroll_1 .enroll_1_div1 .iops .aside_3 input {
+        width: 394px;
+        height: 46px;
+        margin-top: 28px;
+        border: 1px solid #cbcbcb;
+        padding-left: 16px; }
+      .enroll_1 .enroll_1_div1 .iops .aside_4 input {
+        width: 394px;
+        height: 46px;
+        margin-top: 28px;
+        border: 1px solid #cbcbcb;
+        padding-left: 16px; }
+      .enroll_1 .enroll_1_div1 .iops .aside_5 {
+        margin-top: 20px; }
+      .enroll_1 .enroll_1_div1 .iops .aside_7 {
+        font-size: 14px;
+        margin-top: 10px; }
+        .enroll_1 .enroll_1_div1 .iops .aside_7 a {
+          font-size: 14px;
+          display: block;
+          background-color: tomato;
+          width: 60px;
+          height: 20px; }
+      .enroll_1 .enroll_1_div1 .iops .aside_6 {
+        width: 412px;
+        height: 48px;
+        background-color: #265fd7;
+        margin-top: 8px; }
+        .enroll_1 .enroll_1_div1 .iops .aside_6 a {
+          display: block;
+          width: 412px;
+          height: 48px;
+          background-color: steelblue;
+          font-size: 22px;
+          text-align: center;
+          line-height: 48px;
+          border: none; }

@@ -1,0 +1,55 @@
+@charset "utf-8";
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+div,
+fieldset,
+legend,
+input,
+figure,
+figcaption,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b,
+i,
+em {
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+input {
+  outline: none;
+}

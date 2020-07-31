@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    var arr = [
+        {
+            subTitles: ["热点推荐 Hot", "行业市场 Market", "服务指南 Help"],
+            hotpints: ["天猫超市", "喵鲜生", "科技新品", "女装新品", "酷玩街", "内衣新品", "试美妆", "运动新品", "时尚先生", "精明妈咪", "吃乐会", "企业采购", "会员积分", "天猫国际", "品质频道"],
+            hotpints2: ["美妆", "电器", "女装", "男装", "女鞋", "男鞋", "内衣", "箱包", "运动", "母婴", "家装", "医药", "食品", "配饰", "汽车"],
+            hotpints3: ["帮助中心", "品质保障", "特色服务", "7天退换货"],
+            navigation: ["当季流行", "精选上装", "浪漫裙装", "女士下装", "特色女装", "文胸塑身", "家居服", "内裤背心"],
+            Chevalier: ["女装新品", "商场同款", "仙女连衣裙", "T恤", "衬衫", "时髦外套", "休闲裤", "牛仔裤", "无痕文胸", "运动文胸", "潮流家居服", "百搭船袜"],
+            Zinif: ["毛呢外套", "羽绒服", "棉服", "丝绒卫衣", "毛针织衫", "皮毛一体", "皮草", "毛衣", "衬衫", "卫衣", "针织衫", "T恤", "短外套", "小西装", "风衣"],
+            adidas: ["连衣裙", "半身裙", "A子裙", "荷叶边裙", "大摆裙", "包臀裙", "百褶裙", "长袖连衣裙", "棉麻连衣裙", "牛仔裙", "蕾丝连衣裙", "真丝连衣裙", "印花连衣裙"],
+            BOTTOMS: ["休闲裤", "阔腿裤", "牛仔裤", "打底裤", "开叉运动裤", "哈伦裤", "背带裤", "小腿裤", "西装裤", "短裤"],
+            featureadidas: ["时尚套装", "休闲套装", "日系女装", "星选妈妈装", "大码女装", "职业套装", "优雅旗袍", "精致礼服", "婚纱", "唐装", "小码女装"],
+            brassiere: ["光面文胸", "运动文胸", "美背文胸", "聚拢文胸", "大杯文胸", "轻薄塑身"],
+            leisurewear: ["春夏家居服", "纯棉家居服", "莫代尔家居福", "真丝家居服", "春夏睡裙", "男士家居服", "情侣家居服", "性感睡裙"],
+            briefs: ["男士内裤", "女士内裤", "男士内裤多条装", "女士内裤多条装", "莫代尔内裤"],
+            recommend: ["推荐女鞋 >", "潮流男鞋 >", "女单鞋 > ", "特色鞋 >", "潮流女包 >", "精品男包 >", "功能箱包 >"],
+            recommendshouse: ["潮流过膝靴", "气质百搭裸鞋", "永远的帆布鞋", "流行松糕底", "英伦牛津鞋"],
+            recommendyearcon: ["商城同款", "休闲款", "正装皮鞋", "休闲皮鞋", "板鞋", "户外休闲", "帆布鞋", "运动休闲", "乐福鞋", "豆豆鞋", "布洛克", "帆船鞋", "布鞋"],
+            staccato: ["单鞋", "小白鞋", "商场同款", "帆布鞋", "深口单鞋", "浅口单鞋", "平底单鞋", "高跟单鞋", "坡跟单鞋", "豆豆鞋", "乐福鞋", "牛津鞋"],
+            tideway: ["新品推荐", "商场同款", "女士钱包", "单肩包", "斜挎包", "手提包", "手拿包", "腰包", "胸包", "化妆包"],
+            Boutique: ["男士钱包", "收纳包", "胸包", "腰包", "手拿包", "手提包", "斜挎包", "单肩包", "商场同款", "新品推荐"],
+            suitcase: ["旅行箱", "万向轮箱", "旅行袋", "女士双肩包", "男士双肩包", "韩版双肩包", "铆钉双肩包", "女士钱包", "男士钱包", "大容量", "印花"],
+            miracle: ["妈妈鞋", "大码女鞋", "小马女鞋", "女内增高", "南内增高", "阮庆峰", "爸爸鞋", "大妈男鞋", "小马男鞋"],
+            sixteen: [
+                {
+                    img: "../images/bell.jpg"
+                },
+                {
+                    img: "../images/skec.jpg"
+                },
+                {
+                    img: "../images/daph.jpg"
+                },
+                {
+                    img: "../images/char.jpg"
+                },
+                {
+                    img: "../images/tainmei.jpg"
+                },
+                {
+                    img: "../images/ecco.jpg"
+                },
+                {
+                    img: "../images/claks.jpg"
+                },
+                {
+                    img: "../images/shachi.jpg"
+                },
+                {
+                    img: "../images/shenqi.jpg"
+                },
+                {
+                    img: "../images/elle.jpg"
+                },
+                {
+                    img: "../images/dissona.jpg"
+                },
+                {
+                    img: "../images/ali.jpg"
+                },
+                {
+                    img: "../images/quanqiu.jpg"
+                },
+                {
+                    img: "../images/delsey.jpg"
+                },
+                {
+                    img: "../images/tiansuo.jpg"
+                },
+                {
+                    img: "../images/cao.jpg"
+                },
+            ],
+            cosmetics: [
+                {
+                    img: "../images/caizhaung.jpg"
+                },
+                {
+                    img: "../images/lanping.jpg"
+                },
+                {
+                    img: "../images/hongping.jpg"
+                },
+                {
+                    img: "../images/juhuang.jpg"
+                },
+                {
+                    img: "../images/qianlan.jpg"
+                },
+                {
+                    img: "../images/fense.jpg"
+                }
+            ],
+            threepieces: [
+                {
+                    img: "../images/zuonan.jpg"
+                },
+                {
+                    img: "../images/zhongnan.jpg"
+                },
+                {
+                    img: "../images/younan.jpg"
+                },
+            ],
+            thirty: [
+                {
+                    img: "../images/huawei.png"
+                },
+                {
+                    img: "../images/tore.png"
+                },
+                {
+                    img: "../images/shinai.jpg"
+                },
+                {
+                    img: "../images/mei.jpg"
+                },
+                {
+                    img: "../images/assa.png"
+                },
+                {
+                    img: "../images/cat.png"
+                },
+                {
+                    img: "../images/mei.jpg"
+                },
+                {
+                    img: "../images/ying.png"
+                },
+                {
+                    img: "../images/dazhong.png"
+                },
+                {
+                    img: "../images/kaituo.jpg"
+                },
+                {
+                    img: "../images/sco.jpg"
+                },
+                {
+                    img: "../images/net.png"
+                },
+                {
+                    img: "../images/taidi.png"
+                },
+                {
+                    img: "../images/suning.jpg"
+                },
+                {
+                    img: "../images/cross.png"
+                },
+                {
+                    img: "../images/acq.png"
+                },
+                {
+                    img: "../images/mei.jpg"
+                },
+                {
+                    img: "../images/ame.png"
+                },
+                {
+                    img: "../images/mei.jpg"
+                },
+                {
+                    img: "../images/shuangxin.jpg"
+                },
+                {
+                    img: "../images/hot.jpg"
+                },
+                {
+                    img: "../images/bar.png"
+                },
+                {
+                    img: "../images/he.png"
+                },
+                {
+                    img: "../images/fag.png"
+                },
+                {
+                    img: "../images/azipu.png"
+                },
+                {
+                    img: "../images/dekeshi.png"
+                },
+                {
+                    img: "../images/feb.jpg"
+                },
+                {
+                    img: "../images/sto.jpg"
+                },
+                {
+                    img: "../images/woll.png"
+                },
+                {
+                    img: "../images/heiren.png"
+                },
+                {
+                    img: "../images/gaolu.png"
+                }
+            ],
+            sixsmall: [
+                {
+                    img: "../images/maotai.jpg"
+                },
+                {
+                    img: "../images/mianbao.jpg"
+                },
+                {
+                    img: "../images/naicha.jpg"
+                },
+                {
+                    img: "../images/dianchi.jpg"
+                },
+                {
+                    img: "../images/shouji.jpg"
+                },
+                {
+                    img: "../images/heicha.png"
+                },
+            ],
+            Ganliang: [
+                {
+                    img: "../images/heyimeinv.png"
+                },
+                {
+                    img: "../images/fendi.jpg"
+                },
+                {
+                    img: "../images/wazi.jpg"
+                },
+                {
+                    img: "../images/wazi.jpg"
+                },
+                {
+                    img: "../images/kou.jpg"
+                },
+                {
+                    img: "../images/hongxie.jpg"
+                },
+                {
+                    img: "../images/meinv.jpg"
+                },
+                {
+                    img: "../images/yanbi.jpg"
+                },
+                {
+                    img: "../images/jiake.jpg"
+                },
+                {
+                    img: "../images/naifen.jpg"
+                },
+                {
+                    img: "../images/shiwuye.jpg"
+                },
+            ],
+            Beautiful: [
+                {
+                    img: "../images/xiatian.jpg"
+                },
+                {
+                    img: "../images/fengyi.jpg"
+                },
+                {
+                    img: "../images/changqun.jpg"
+                },
+                {
+                    img: "../images/lanbao.jpg"
+                },
+                {
+                    img: "../images/lanxie.jpg"
+                },
+                {
+                    img: "../images/heixiea.jpg"
+                },
+                {
+                    img: "../images/mianshuang.jpg"
+                },
+                {
+                    img: "../images/shoubiao.jpg"
+                },
+                {
+                    img: "../images/fuguiniao.jpg"
+                },
+            ],
+            damp: [
+                {
+                    img: "../images/chaonan.png"
+                },
+                {
+                    img: "../images/yinxiang.jpg"
+                },
+                {
+                    img: "../images/lanseshouji.jpg"
+                },
+                {
+                    img: "../images/leibai.jpg"
+                },
+                {
+                    img: "../images/neicun.jpg"
+                },
+                {
+                    img: "../images/lanka.jpg"
+                },
+                {
+                    img: "../images/tianxian.jpg"
+                },
+                {
+                    img: "../images/lianxiang.jpg"
+                },
+                {
+                    img: "../images/shoubing.jpg"
+                },
+            ],
+            furniture: [
+                {
+                    img: "../images/jiaju.jpg"
+                },
+                {
+                    img: "../images/danhuang.png"
+                },
+                {
+                    img: "../images/chazi.jpg"
+                },
+                {
+                    img: "../images/shu.jpg"
+                },
+                {
+                    img: "../images/gang.jpg"
+                },
+                {
+                    img: "../images/liang.jpg"
+                },
+                {
+                    img: "../images/fen.jpg"
+                },
+                {
+                    img: "../images/san.jpg"
+                },
+                {
+                    img: "../images/zhi.jpg"
+                },
+            ],
+            sweethome: [
+                {
+                    img: "../images/shafa.png"
+                },
+                {
+                    img: "../images/zhuozi.jpg"
+                },
+                {
+                    img: "../images/yan.jpg"
+                },
+                {
+                    img: "../images/zhen.jpg"
+                },
+                {
+                    img: "../images/guo.jpg"
+                },
+                {
+                    img: "../images/zhou.jpg"
+                },
+                {
+                    img: "../images/xi.jpg"
+                },
+                {
+                    img: "../images/gaodi.jpg"
+                },
+                {
+                    img: "../images/kongzhi.jpg"
+                },
+            ],
+            outdoors: [
+                {
+                    img: "../images/che.jpg"
+                },
+                {
+                    img: "../images/hei1.jpg"
+                },
+                {
+                    img: "../images/hei2.jpg"
+                },
+                {
+                    img: "../images/hei3.jpg"
+                },
+                {
+                    img: "../images/hei4.jpg"
+                },
+                {
+                    img: "../images/hei5.jpg"
+                },
+                {
+                    img: "../images/hei6.jpg"
+                },
+                {
+                    img: "../images/hei7.jpg"
+                },
+                {
+                    img: "../images/hei8.jpg"
+                },
+            ],
+            onehundred: [
+                {
+                    img: "../images/weida1.jpg"
+                },
+                {
+                    img: "../images/2.jpg"
+                },
+                {
+                    img: "../images/3.png"
+                },
+                {
+                    img: "../images/4.jpg"
+                },
+                {
+                    img: "../images/5.jpg"
+                },
+                {
+                    img: "../images/6.jpg"
+                },
+                {
+                    img: "../images/7.jpg"
+                },
+                {
+                    img: "../images/8.jpg"
+                },
+                {
+                    img: "../images/9.jpg"
+                },
+                {
+                    img: "../images/10.jpg"
+                },
+                {
+                    img: "../images/11.jpg"
+                },
+                {
+                    img: "../images/12.jpg"
+                },
+                {
+                    img: "../images/13.jpg"
+                },
+                {
+                    img: "../images/14.jpg"
+                },
+                {
+                    img: "../images/15.jpg"
+                },
+                {
+                    img: "../images/16.jpg"
+                },
+                {
+                    img: "../images/17.jpg"
+                },
+                {
+                    img: "../images/18.jpg"
+                },
+                {
+                    img: "../images/19.jpg"
+                },
+                {
+                    img: "../images/20.png"
+                },
+                {
+                    img: "../images/21.jpg"
+                },
+                {
+                    img: "../images/22.png"
+                },
+                {
+                    img: "../images/23.jpg"
+                },
+                {
+                    img: "../images/24.jpg"
+                },
+                {
+                    img: "../images/25.jpg"
+                },
+                {
+                    img: "../images/26.jpg"
+                },
+                {
+                    img: "../images/27.jpg"
+                },
+                {
+                    img: "../images/28.jpg"
+                },
+                {
+                    img: "../images/29.jpg"
+                },
+                {
+                    img: "../images/30.png"
+                },
+                {
+                    img: "../images/31.jpg"
+                },
+                {
+                    img: "../images/32.png"
+                },
+                {
+                    img: "../images/33.jpg"
+                },
+                {
+                    img: "../images/34.jpg"
+                },
+                {
+                    img: "../images/35.jpg"
+                },
+                {
+                    img: "../images/36.jpg"
+                },
+                {
+                    img: "../images/37.jpg"
+                },
+                {
+                    img: "../images/38.jpg"
+                },
+                {
+                    img: "../images/39.jpg"
+                },
+                {
+                    img: "../images/40.jpg"
+                },
+                {
+                    img: "../images/41.jpg"
+                },
+                {
+                    img: "../images/42.jpg"
+                },
+                {
+                    img: "../images/43.jpg"
+                },
+                {
+                    img: "../images/44.jpg"
+                },
+                {
+                    img: "../images/45.jpg"
+                },
+                {
+                    img: "../images/46.jpg"
+                },
+                {
+                    img: "../images/47.png"
+                },
+                {
+                    img: "../images/48.jpg"
+                },
+                {
+                    img: "../images/49.jpg"
+                },
+                {
+                    img: "../images/50.jpg"
+                },
+            ],
+            HotCity: ["北京", "上海", "杭州", "广州", "天津", "苏州", "成都", "深圳", "南京", "重庆", "南昌", "武汉"],
+            Acity: ["阿坝", "安顺", "安庆", "阿拉尔", "鞍山", "阿克苏", "阿拉善", "阿勒泰", "安康", "阿里", "安阳"],
+            print: [
+                {
+                    img: "../images/zhi.png"
+                },
+                {
+                    img: "../images/zhi1.jpg"
+                },
+                {
+                    img: "../images/zhi2.jpg"
+                },
+                {
+                    img: "../images/zhi3.jpg"
+                },
+                {
+                    img: "../images/zh4.jpg"
+                },
+                {
+                    img: "../images/zhi5.jpg"
+                },
+            ],
+            calorie: [
+                {
+                    img: "../images/kaluli.jpg"
+                },
+                {
+                    img: "../images/chuwei.jpg"
+                },
+                {
+                    img: "../images/dierjian.jpg"
+                },
+            ],
+            photograph: [
+                {
+                    img: "../images/xiao1.jpg"
+                },
+                {
+                    img: "../images/xiao2.jpg"
+                },
+                {
+                    img: "../images/xiao3.png"
+                },
+                {
+                    img: "../images/xiao4.jpg"
+                },
+                {
+                    img: "../images/xiao5.jpg"
+                },
+                {
+                    img: "../images/xiao6.jpg"
+                },
+                {
+                    img: "../images/xiao7.jpg"
+                },
+            ],
+            tissue: [
+                {
+                    img: "../images/weida1.jpg"
+                },
+                {
+                    img: "../images/weida2.jpg"
+                },
+                {
+                    img: "../images/weida3.jpg"
+                },
+                {
+                    img: "../images/weida4.jpg"
+                },
+                {
+                    img: "../images/weida5.jpg"
+                },
+                {
+                    img: "../images/weida6.jpg"
+                },
+                {
+                    img: "../images/weida7.jpg"
+                },
+                {
+                    img: "../images/weida8.jpg"
+                },
+                {
+                    img: "../images/weida9.jpg"
+                },
+                {
+                    img: "../images/weida10.jpg"
+                },
+                {
+                    img: "../images/weida11.jpg"
+                },
+                {
+                    img: "../images/weida12.jpg"
+                },
+                {
+                    img: "../images/weida13.jpg"
+                },
+                {
+                    img: "../images/weida14.jpg"
+                },
+                {
+                    img: "../images/weida15.jpg"
+                },
+                {
+                    img: "../images/weida16.jpg"
+                },
+                {
+                    img: "../images/weida17.jpg"
+                },
+                {
+                    img: "../images/weida18.jpg"
+                },
+                {
+                    img: "../images/weida19.jpg"
+                },
+                {
+                    img: "../images/weida20.jpg"
+                },
+                {
+                    img: "../images/weida21.jpg"
+                },
+            ],
+            Shopcartdata:[
+                {
+                    id:0,
+                    img:"../images/dapei.jpg",
+                    writing:"A68MHE主板+DDR3 1600 8G内存"
+                }
+            ]
+
+        }
+    ]
+
+    var str = JSON.stringify(arr)
+    document.write(str)
+</script>
+
+</html>
